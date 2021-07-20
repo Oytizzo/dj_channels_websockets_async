@@ -70,9 +70,6 @@ TEMPLATES = [
     },
 ]
 
-# channels
-ASGI_APPLICATION = "proj_dir.asgi.application"
-
 WSGI_APPLICATION = 'proj_dir.wsgi.application'
 
 
@@ -129,3 +126,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# channels
+ASGI_APPLICATION = "proj_dir.asgi.application"
